@@ -4,14 +4,13 @@ from dotenv import load_dotenv
 import telebot
 import web3
 
-dotenv_path = join(dirname(__file__), '.env')
+dotenv_path = join(dirname(__file__), '.env') # needs file
 load_dotenv(dotenv_path)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-
+BOT_TOKEN = os.environ.get("BOT_TOKEN") # .env
 bot = telebot.TeleBot(BOT_TOKEN)
 
-pk = os.environ.get("SECRET_KEY")
+pk = os.environ.get("SECRET_KEY") # .env
 
 w3 = web3.Web3(web3.Web3.HTTPProvider("https://sepolia-rpc.scroll.io/"))
 
@@ -39,7 +38,7 @@ def amount_handler(message):
         sent_msg, complete_transaction, address)
     
 def complete_transaction(message, address):
-    amount = message.text
+    amount = message.text # potential bug
     
     tx_hash = w3.eth.send_transaction({
         "from": account.address,
