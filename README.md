@@ -1,4 +1,4 @@
-# Telegram Bot with Ethereum Integration Tutorial
+# Telegram Bot with Web3 Integration Tutorial
 
 ## Overview
 This tutorial guides you through creating a simple Telegram bot that interacts with the Ethereum blockchain. The bot allows users to send transactions of specfic amounts using a specified Ethereum account.
