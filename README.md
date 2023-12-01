@@ -18,12 +18,12 @@ This tutorial guides you through creating a simple Telegram bot that interacts w
 1. Create a Telegram bot on Telegram by talking to the BotFather.
 2. Copy the bot token provided by BotFather.
 3. Open the `.env` file and add the following line:
-`BOT_TOKEN=<your_telegram_bot_token>`
+`BOT_TOKEN = <your_telegram_bot_token>`
 
 ### Step 3: Configure Ethereum Account
 1. Obtain an Ethereum account with a private key.
 2. Open the `.env` file and add the following line:
-`SECRET_KEY=<your_ethereum_private_key>`
+`SECRET_KEY = <your_ethereum_private_key>`
 
 ### Step 4: Install Dependencies
 1. Open a terminal in the project directory and run: `pip install -r requirements.txt`
