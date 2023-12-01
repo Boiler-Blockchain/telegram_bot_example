@@ -29,9 +29,9 @@ SECRET_KEY=<your_ethereum_private_key>
 1. Open a terminal in the project directory and run: `pip install -r requirements.txt`
 
 ### Step 5: Run the Bot
-1. Execute the following command in the terminal: `python your_bot_script.py``
+1. Execute the following command in the terminal: `python your_bot_script.py`
 
 ### Step 6: Interact with the Bot
 1. Open your Telegram app and find your bot.
-2. Send the `/hello`` command to receive a greeting.
-3. Send the `/transact`` command to initiate a transaction.
+2. Send the `/hello` command to receive a greeting.
+3. Send the `/transact` command to initiate a transaction.
